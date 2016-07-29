@@ -15,7 +15,7 @@ public class Main {
         System.out.println(pokemon2);
         System.out.println(pokemon3);
 
-        pokemon3.attack(pokemon);
+        pokemon2.attack(pokemon);
 
         System.out.println(pokemon);
         System.out.println(pokemon2);

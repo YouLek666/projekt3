@@ -29,6 +29,7 @@ public class Pokemon {
         }
     }
     public void attack(Pokemon enemy) {
+        if (this != enemy)
         enemy.takeAttack(combatPower);
     }
 }
